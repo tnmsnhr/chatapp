@@ -1,0 +1,40 @@
+.login__container {
+
+}
+
+.avatar__container {
+    width: 40%;
+    margin: 0 auto;
+    background-color: $color-primary;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.chat__container {
+
+}
+
+.singlechat__container {
+    
+}
+
+.chat__contact--lists {
+
+    .singlechat__container {
+        padding: 0 20px;
+
+        &:not(:last-child){
+            border-bottom: 1px solid $color-border;
+        }
+
+        
+
+        &:nth-child(4){
+            background-image: linear-gradient(to right,#f9595900, #f9595980 99%,#F95959 99%);
+        }
+    }
+}
+

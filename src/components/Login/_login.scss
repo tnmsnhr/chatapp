@@ -1,0 +1,41 @@
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .login__left {
+        width: 40%;
+        height: 100vh;
+        background: #fff;
+        padding: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .login__form {
+            width: 100%;
+
+            .loginform__text {
+                color: $color-primary;
+            }
+        }
+    }
+
+    .login__right {
+        width: 60%;
+        height: 100vh;
+        background: $color-primary;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        img {
+            width: 70%;
+        }
+
+        .login__dialogue{
+            color: #fff;
+        }
+    }
+}
