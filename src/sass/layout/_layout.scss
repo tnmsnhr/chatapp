@@ -5,7 +5,7 @@
 .avatar__container {
     width: 40%;
     margin: 0 auto;
-    background-color: $color-primary;
+    background-color: #fff;
     border-radius: 10px;
     position: absolute;
     top: 50%;
@@ -30,11 +30,14 @@
             border-bottom: 1px solid $color-border;
         }
 
-        
-
         &:nth-child(4){
             background-image: linear-gradient(to right,#f9595900, #f9595980 99%,#F95959 99%);
         }
     }
+
+    
 }
 
+.active__chat{
+            background-image: linear-gradient(to right,#f9595900, #f9595980 99%,#F95959 99%);
+        }

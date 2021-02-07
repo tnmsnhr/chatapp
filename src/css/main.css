@@ -134,7 +134,7 @@ body {
 .avatar__container {
   width: 40%;
   margin: 0 auto;
-  background-color: #3E2ABE;
+  background-color: #fff;
   border-radius: 10px;
   position: absolute;
   top: 50%;
@@ -147,6 +147,9 @@ body {
     border-bottom: 1px solid #e6e6e6; }
   .chat__contact--lists .singlechat__container:nth-child(4) {
     background-image: linear-gradient(to right, #f9595900, #f9595980 99%, #F95959 99%); }
+
+.active__chat {
+  background-image: linear-gradient(to right, #f9595900, #f9595980 99%, #F95959 99%); }
 
 .login {
   display: flex;
